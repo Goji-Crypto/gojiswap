@@ -1,0 +1,28 @@
+export const styleLight = `body{background: #fff}
+.theme-toggle svg path{fill:#353635}
+.theme-toggle svg line{stroke:#353635}
+.c-t-wallet svg path{ fill:#353635}
+.form-desc h1{color: #353635}
+.form-desc p{color: #717171}
+path.p{fill:#353635}
+.gojiswap .swapper{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #E2E2E2; box-shadow: 0px 4px 40px rgba(141, 195, 63, 0.25);}
+.uniswap .swapper{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #E2E2E2; box-shadow: 0px 4px 22px #bfb8be;}
+.oneinch .swapper{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #E2E2E2; box-shadow: 0px 4px 22px #bfb8be;}
+.sushiswap .swapper{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #E2E2E2; box-shadow: 0px 4px 22px #bfb8be;}
+.quickswap .swapper{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #e2e2e2; box-shadow: 0px 4px 22px #2172E5;}
+.swapper .nav-item a{color: #353635}
+.input-group input{background: #F4F4F4; border: 0.5px solid #BBBBBB; color: #353635}
+.swipe-btn svg rect[fill="#1F1F1F"]{fill:#ffff;}
+.crypto-tbl{background: rgba(244, 244, 244, 0.5); border: 0.5px solid #E2E2E2; box-shadow: 0px 4px 40px rgba(141, 195, 63, 0.25);}
+.crypto-tbl thead{color: #353635}
+.crypto-tbl tbody tr{background: #F4F4F4; border: 0.5px solid #BBBBBB;}
+.crypto-tbl tbody{color: #353635}
+.input-heading{color: #353635;}
+.navbar-nav .nav-link{color:#353635 !important }
+.navbar-nav .nav-link.active{color:#353635 !important }
+.navbar-nav .nav-link svg path{fill:#353635 !important }
+.toggle-switch label{color: #353635;}
+
+.watermark.uniswap path{fill:#624A5D}
+.footer-line span{color: #717171}
+.footer-line svg path{fill: #717171}`;

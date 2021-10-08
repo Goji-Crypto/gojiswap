@@ -1,0 +1,400 @@
+* {box-sizing: border-box;}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BlackItalic.eot');
+    src: local('Axiforma Black Italic'), local('Axiforma-BlackItalic'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Bold.eot');
+    src: local('Axiforma Bold'), local('Axiforma-Bold'),
+        url('../fonts/Axiforma/Axiforma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Bold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ThinItalic.eot');
+    src: local('Axiforma Thin Italic'), local('Axiforma-ThinItalic'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Heavy.eot');
+    src: local('Axiforma Heavy'), local('Axiforma-Heavy'),
+        url('../fonts/Axiforma/Axiforma-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Heavy.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Medium.eot');
+    src: local('Axiforma Medium'), local('Axiforma-Medium'),
+        url('../fonts/Axiforma/Axiforma-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Medium.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-LightItalic.eot');
+    src: local('Axiforma Light Italic'), local('Axiforma-LightItalic'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BoldItalic.eot');
+    src: local('Axiforma Bold Italic'), local('Axiforma-BoldItalic'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BookItalic.eot');
+    src: local('Axiforma Book Italic'), local('Axiforma-BookItalic'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-SemiBold.eot');
+    src: local('Axiforma SemiBold'), local('Axiforma-SemiBold'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Black.eot');
+    src: local('Axiforma Black'), local('Axiforma-Black'),
+        url('../fonts/Axiforma/Axiforma-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Black.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Thin.eot');
+    src: local('Axiforma Thin'), local('Axiforma-Thin'),
+        url('../fonts/Axiforma/Axiforma-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Thin.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Book.eot');
+    src: local('Axiforma Book'), local('Axiforma-Book'),
+        url('../fonts/Axiforma/Axiforma-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Book.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ExtraBold.eot');
+    src: local('Axiforma ExtraBold'), local('Axiforma-ExtraBold'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-HeavyItalic.eot');
+    src: local('Axiforma Heavy Italic'), local('Axiforma-HeavyItalic'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-MediumItalic.eot');
+    src: local('Axiforma Medium Italic'), local('Axiforma-MediumItalic'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Italic.eot');
+    src: local('Axiforma Italic'), local('Axiforma-Italic'),
+        url('../fonts/Axiforma/Axiforma-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Italic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-SemiBoldItalic.eot');
+    src: local('Axiforma SemiBold Italic'), local('Axiforma-SemiBoldItalic'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Regular.eot');
+    src: local('Axiforma Regular'), local('Axiforma-Regular'),
+        url('../fonts/Axiforma/Axiforma-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Regular.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Light.eot');
+    src: local('Axiforma Light'), local('Axiforma-Light'),
+        url('../fonts/Axiforma/Axiforma-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Light.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.eot');
+    src: local('Axiforma ExtraBold Italic'), local('Axiforma-ExtraBoldItalic'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BlackItalic.eot');
+    src: local('Axiforma Black Italic'), local('Axiforma-BlackItalic'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('../fonts/Righteous-Regular.ttf');
+    src: local('Righteous-Regular'), local('Righteous-Regular');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+::-webkit-scrollbar {width: 6px;}
+::-webkit-scrollbar:focus{50px}
+::-webkit-scrollbar-track {background: #ddd; }
+::-webkit-scrollbar-thumb {background:linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%); ;border-radius:5px;}
+::-webkit-scrollbar-thumb:hover {background:linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%); }
+
+body{font-family: 'Axiforma';}
+.theme-btn{background:linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%); color: white;  font-size: 14px; font-weight: 400; text-transform: inherit; letter-spacing: 0.5px; height: 44px; border-radius: 60px;}
+.navbar-nav .nav-link{font-size: 14px; opacity: 0.5}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{opacity: 1.0}
+.navbar{box-shadow: none}
+.theme-btn.dropdown-toggle{border-radius: 8px; height: 30px; width: 60px; display: flex; align-items: center; justify-content: center; padding: 0;}
+.theme-btn.dropdown-toggle:after{margin-left: 10px;}
+.mobile-nav{display: none !important}
+
+.dropdown-menu{background: #1F1F1F}
+.dropdown-menu a{color: white}
+.filter-btn{padding: 0; height: 34px; width: 34px; position: absolute; top: 15px; right: 15px;}
+.swapper .nav-item a{font-size: 14px; text-transform: capitalize;}
+.gojiswap .gradient{height: 100%; z-index: -1}
+.gojiswap  .gradient.goji{top: 0; right: 0;}
+.watermark{right: 0; top: 100px}
+.swapper{border-radius: 16px; max-width: 532px;}
+
+
+
+.input-group .btn{background: #1A111D; box-shadow: none; padding: 0; height: 38px; border-radius: 16px !important; width: 108px; margin-top: 6px; border: 0.5px solid #484848; color: white; position: relative; z-index: 1}
+.input-group input{opacity: 0.5; border: 0.5px solid #484848; border-radius: 16px !important; height: 50px !important; margin-left: -113px !important; padding-left: 125px;}
+.input-group input:focus{background: none; border: none; outline: 0; opacity: 1}
+.input-group .dropdown-menu{max-width: 20%}
+.dropdown-menu li a:hover{background: linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%);}
+.swap-form .swipe-btn{margin-top: -3px; margin-bottom: -3px; z-index: 1}
+.swipe-btn:hover{opacity: 0.5}
+
+.toggle-control {display: block; position: relative; padding-left: 50px; margin-bottom: 12px; cursor: pointer; font-size: 22px;
+  -webkit-user-select: none; -moz-user-select: none;  -ms-user-select: none;  user-select: none;}
+.toggle-control input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.toggle-control input:checked ~ .control { background-color: #00A8A8;}
+.toggle-control input:checked ~ .control:after { left: 23px;}
+.toggle-control .control { position: absolute; top: 0; left: 0; height: 16px; width: 40px; border-radius: 25px; background-color: #8DC33F; transition: background-color 0.15s ease-in;}
+.toggle-control .control:after {content: ""; position: absolute; left: 0px; top: 0px; width: 16px; height: 16px; border-radius: 25px; background: white; transition: left 0.15s ease-in;}
+.input-heading{font-size: 14px;}
+.toggle-switch label{font-size: 13px;}
+.limit-form .swipe-btn{margin-bottom: 15px; margin-top: 15px }
+.form-desc h1{font-family: 'Righteous'; font-size: 36px; line-height: 48px; color: white}
+.form-desc p{font-size: 13px; color: #DFDFDF}
+.crypto-tbl{border-radius: 16px;}
+.crypto-tbl thead{font-size: 14px;}
+.crypto-tbl tbody{font-size: 12px;}
+.red{color: red}
+.green{color: #8DC33F}
+.crypto-tbl{overflow: auto}
+.crypto-tbl .table{border-spacing: 0 10px; border-collapse: separate;}
+.crypto-tbl tbody td,
+.crypto-tbl thead th{border: none}
+.crypto-tbl tbody tr:hover{cursor: pointer; opacity: 0.7}
+.hanu-row{background: linear-gradient(144.82deg, rgba(141, 195, 63, 0.5) 14.13%, rgba(0, 167, 167, 0.5) 86.38%) !important;}
+.crypto-tbl tbody tr td:first-child{border-top-left-radius: 16px; border-bottom-left-radius: 16px;}
+.crypto-tbl tbody tr td:last-child{border-top-right-radius: 16px; border-bottom-right-radius: 16px;}
+
+.filter-modal .modal-content{background: #1F1F1F; border: 0.5px solid #484848; border-radius: 16px; color: white; margin-top: 200px;}
+.modal-title{font-size: 14px;}
+.filter-modal h4{font-size: 13px;}
+.filter-modal .btn-close{filter: invert(1)}
+.filter-modal .modal-header{border:none;}
+
+.crypto-tbl::-webkit-scrollbar {width: 2px;}
+.crypto-tbl::-webkit-scrollbar:focus{50px}
+.crypto-tbl::-webkit-scrollbar-track {background: #1A111D; }
+.crypto-tbl::-webkit-scrollbar-thumb {background:linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%); ;border-radius:5px;}
+.crypto-tbl::-webkit-scrollbar-thumb:hover {background:linear-gradient(144.82deg, #8DC33F 14.13%, #00A7A7 86.38%); }
+
+
+.powered-by{color: #dfdfdf}
+.uniswap .swipe-btn svg path{fill:#664D60}
+.uniswap .form-btn .theme-btn{background: linear-gradient(-179.82deg, #664D60 14.13%, #222122 86.38%);}
+.uniswap .gradient{width: 100%; height: 100%}
+
+.oneinch .swipe-btn svg path{fill:#B32020}
+.oneinch .form-btn{text-align: center}
+.oneinch .form-btn .theme-btn{background: linear-gradient(-179.82deg, #D82122 14.13%, #4B1A1A 86.38%); max-width: 328px;}
+.oneinch .gradient{width: 100%; height: 100%}
+
+.sushiswap .swipe-btn svg path{fill:#0F90EB}
+.sushiswap .form-btn{text-align: center}
+.sushiswap .form-btn .theme-btn{background: linear-gradient(114.87deg, #0F90EB 15.84%, #DE41C7 84.16%); max-width: 328px;}
+.sushiswap .gradient{width: 100%; height: 100%}
+
+.quickswap .swipe-btn svg path{fill:#0F90EB}
+.quickswap .form-btn{text-align: center}
+.quickswap .form-btn .theme-btn{background: #2172E5; max-width: 328px;}
+.quickswap .gradient{width: 100%; height: 100%}
+
+
+
+
+.gojiswap .swapper .nav-item a.active,
+.gojiswap .swapper .nav-item a:hover{background: -webkit-linear-gradient(#8DC33F, #00A7A7) !important; font-weight: 800;
+  -webkit-background-clip: text  !important; -webkit-text-fill-color: transparent  !important; border: none !important}
+
+.uniswap .swapper .nav-item a.active,
+.uniswap .swapper .nav-item a:hover{background: -webkit-linear-gradient(#AF8EA7, #8A618A) !important; font-weight: 800;
+  -webkit-background-clip: text  !important; -webkit-text-fill-color: transparent  !important; border: none !important}
+
+.oneinch  .swapper .nav-item a.active,
+.oneinch  .swapper .nav-item a:hover{background: -webkit-linear-gradient(#D82122, #A62324) !important; font-weight: 800;
+  -webkit-background-clip: text  !important; -webkit-text-fill-color: transparent  !important; border: none !important}
+
+.sushiswap .swapper .nav-item a.active,
+.sushiswap .swapper .nav-item a:hover{background: -webkit-linear-gradient(#0F90EB, #DE41C7) !important; font-weight: 800;
+  -webkit-background-clip: text  !important; -webkit-text-fill-color: transparent  !important; border: none !important}
+
+.quickswap .swapper .nav-item a.active,
+.quickswap .swapper .nav-item a:hover{background: -webkit-linear-gradient(#2172E5, #2172E5) !important; font-weight: 800;
+  -webkit-background-clip: text  !important; -webkit-text-fill-color: transparent  !important; border: none !important}
+
+@media(min-width:1024px){
+    .oneinch .swapper{min-width: 870px;}
+    .sushiswap .swapper{min-width: 870px;}
+    .quickswap .swapper{min-width: 870px;}
+}
+
+@media (min-width:769px){
+    .swap-form{padding-left: 5rem !important; padding-right: 5rem !important} 
+    .footer-line{position: sticky; margin-top: 105px; display: flex; justify-content: center; width: 100%; font-size: 12px; align-items: center}
+    .uniswap .swapper{min-width: 532px;}
+}
+
+@media (max-width:768px){
+    .main-nav{display: none}
+    .mobile-nav{display: flex !important}
+    .form-desc h1{font-size: 29px; line-height: 36px;}
+    .form-desc p br{display: none}
+    .swapper-section{margin-top: 3rem}
+    .swapper .nav-item a{font-size: 13px;}
+    .nav-tabs{justify-content: flex-start !important}
+    .swap-form .swipe-btn{margin-top: 30px; margin-bottom: 30px;}
+    .swipe-btn a svg{width: 40px; height: 40px;}
+    .footer-line{text-align: center; margin-top: 50px;}
+    .gradient{width: 100%; height: auto}
+    .watermark{display: none}
+    .gradient{z-index: -1}
+}
+
+@media (max-width:615px){
+    .swapper-section{order: 12}
+    .form-desc{text-align: center}
+    .swapper{min-height: 458px; padding: 0 1rem}
+    .filter-btn{top: 50px;}
+   
+}
+
+
+@media (orientation: landscape) and (max-height:550px){
+    
+}

@@ -1,0 +1,69 @@
+
+.nav-overlay {
+    background-image: url(../img/menu-bg.png); background-repeat: no-repeat; background-size: cover;
+    background-color: #413E3E;
+    width: 100%; height: 100vh; display: block;
+    position: fixed; z-index: 99;
+    cursor: url(../assets/nav-close.png) 0 0, pointer;
+    cursor: url(../assets/vigilance_burger_open.svg) 0 0, pointer;
+    cursor: -webkit-image-set(url(../assets/nav-close.png) 1x, url(../assets/nav-close_x2.png) 2x) 0 0, pointer;
+    display: none;
+    padding: 2.22rem 2.25rem;
+}
+
+/*
+.nav-wrapper {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+*/
+
+.nav-overlay ul {text-align: center; list-style: none;}
+.nav-overlay ul li{margin-bottom: 0rem;}
+.nav-overlay ul li:not(.dropdown) a{ color:#fff !important; }
+.nav-overlay ul li a{font-size: 1.7rem; text-align: center} 
+
+li.dropdown.show{z-index: 3}
+.dropdown-menu.show{width: 100%}
+
+.close-menu{color: #fff; font-size: 2rem; top: 22px; right: 60px;}
+
+.nav-overlay ul li {transition: color .2s cubic-bezier(.23, 1, .32, 1)}
+.nav-overlay ul li.active, .nav-overlay ul li:hover {color: #fff}
+.mobile-close-nav { display: none; position: absolute; top: 20px; right: 20px}
+
+@media screen and (max-width:767px) {.mobile-close-nav { display: block}}
+.mobile-close-nav img {width: 20px; height: 27px}
+.nav-trigger { display: inline-block;  height: 80px; width: 120px; float: right; position: relative; cursor: pointe}
+
+@media screen and (max-width:767px) { .nav-trigger {height: 60px;width: 60px }}
+
+.nav-trigger span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 20px;
+    height: auto;
+    display: block;
+    position: relative
+}
+
+.nav-trigger img { transition: transform .3s ease-in-out}
+.nav-trigger.active img:first-child,
+.nav-trigger:hover img:first-child {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg)
+}
+
+@media (max-width:615px){
+    .nav-link.dropdown-toggle{color: #fff !important}
+    
+}
+
+
